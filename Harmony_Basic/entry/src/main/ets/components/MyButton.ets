@@ -5,13 +5,13 @@ export struct MyButton {
     Row({space: 10}){
       Button('主要按钮')
         .type(ButtonType.Normal)
-        .backgroundColor('#ccc')
+        .backgroundColor('#ff4bd4cd')
       Button('次要按钮')
         .type(ButtonType.Normal)
-        .backgroundColor('#ccc')
+        .backgroundColor('#ffe5dada')
       Button('危险按钮')
         .type(ButtonType.Normal)
-        .backgroundColor('#ccc')
+        .backgroundColor('#ffec0f0f')
     }
   }
 }

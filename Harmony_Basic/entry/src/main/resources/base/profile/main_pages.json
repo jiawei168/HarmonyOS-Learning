@@ -1,6 +1,7 @@
 {
   "src": [
     "pages/Index",
-    "components/MyButton"
+    "components/MyButton",
+    "components/UserList"
   ]
 }
