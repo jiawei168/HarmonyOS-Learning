@@ -1,0 +1,56 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storeFile": "C:/Users/86184/Desktop/test3/.p12",
+          "storePassword": "0000001BEA0BABB6FE6DB9A3466CFFAE2AD9202BE141442BEFDD6480AE795E1D55B88BB4FC56F05FC2171C",
+          "keyAlias": "TEST3",
+          "keyPassword": "0000001B19393B84A480F4E25CF1A561F563A699150472628F2E0F12DF10185EBF8941F9B29F3DF69A2E62",
+          "signAlg": "SHA256withECDSA",
+          "profile": "C:/Users/86184/Desktop/TEST3Release.p7b",
+          "certpath": "C:/Users/86184/Desktop/TEST3.cer"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "5.1.1(19)",
+        "compatibleSdkVersion": "5.1.1(19)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
